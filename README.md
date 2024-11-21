@@ -57,10 +57,12 @@ Les branches permettent de :
 
 Créer des branches dans un projet Git permet de travailler sur différentes tâches en parallèle sans affecter le code principal. Cela permet de protéger la branche     principale, généralement appelée `main` en évitant d’y introduire des erreurs.
 
-## Question 4
-Expliquez comment faire un commit avec GitKraken et capturez l'écran de votre commit.
+----
 
-    Pour faire un commit avec GitKraken, ouvrez votre dépôt et modifiez vos fichiers. Une fois les changements effectués, allez dans le panneau "Unstaged Files" et cochez les fichiers à      ajouter. Saisissez un message de commit "Ajout d’une ligne dans README.md" dans le champ dédié, puis cliquez sur "Commit Changes" puis push.
+## Question 4
+Expliquez comment faire un commit avec GitKraken et capturez l'écran de votre commit :
+
+Pour faire un commit avec GitKraken, ouvrez votre dépôt et modifiez vos fichiers. Une fois les changements effectués, allez dans le panneau "Unstaged Files" et cochez les fichiers à      ajouter. Saisissez un message de commit `Ajout d’une ligne dans README.md` dans le champ dédié, puis cliquez sur "Commit Changes" puis push.
     
 Faire un commit :
 
