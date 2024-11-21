@@ -1,7 +1,8 @@
 # ProjetTP_GitKraken
 
 ## Question 1
-
+Barre supérieure
+    Permet d’accéder aux actions principales comme ouvrir un projet, créer un nouveau dépôt, ou gérer les paramètre
 
 
 ## Question 2
