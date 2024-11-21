@@ -55,7 +55,7 @@ Barre inférieure :
 ## Question 3
 Les branches permettent de :
 
-    Créer des branches dans un projet Git permet de travailler sur différentes tâches en parallèle sans affecter le code principal. Cela permet de protéger la branche     principale, généralement appelée `main` en évitant d’y introduire des erreurs.
+Créer des branches dans un projet Git permet de travailler sur différentes tâches en parallèle sans affecter le code principal. Cela permet de protéger la branche     principale, généralement appelée `main` en évitant d’y introduire des erreurs.
 
 ## Question 4
 Expliquez comment faire un commit avec GitKraken et capturez l'écran de votre commit.
