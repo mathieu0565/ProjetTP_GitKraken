@@ -146,14 +146,10 @@ Une Pull Request (PR) dans Git est utilisée pour proposer des modifications dan
 - Cet affichage graphique présente plusieurs avantages : il facilite la compréhension des relations entre les branches, simplifie la gestion des conflits, permet une navigation rapide entre les commits
 
 ## Question 12 : À quoi servent les tags, et comment les crée-t-on dans GitKraken ?
+- Les tags dans un projet Git sont utilisés pour marquer des points spécifiques dans l'historique du projet, généralement pour indiquer des versions importantes, comme des versions stables ou des étapes majeures du développement
 
-    Utilité des tags :
-    Les tags marquent des points importants dans un projet, comme une version stable (par ex. v1.0). Ils permettent de       revenir facilement à un état précis du code.
+### comment crée ?
+1. Ouvrir GitKraken et sélectionnez le commit auquel vous souhaitez ajouter un tag. Vous pouvez le faire dans l’historique des commits, où chaque commit est affiché sous forme de point.
+2. Clic droit sur le commit : Faites un clic droit sur le commit sélectionné dans le graphique des branches.
+3. Créer un tag : Dans le menu contextuel, sélectionnez l'option "Create Tag".
 
-Créer un tag dans GitKraken :
-
-    Cliquez sur le commit que vous voulez taguer.
-    Faites un clic droit et choisissez Create Tag.
-    Donnez un nom au tag (ex. v1.0) et validez.
-
-Le tag apparaîtra dans le graphique, et vous pouvez le pousser vers le dépôt distant si nécessaire.
