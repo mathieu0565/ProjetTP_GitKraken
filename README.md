@@ -2,7 +2,7 @@
 
 ## Question 1
 Barre supérieure :
-  - Ouvrir un projet.
+  -  Ouvrir un projet.
   - Créer un nouveau dépôt.
   - Accéder aux paramètres et configurations globales.
 
@@ -35,21 +35,32 @@ Barre inférieure :
   - **Push** pour envoyer vos modifications au dépôt distant.
 
 ## Question 2
-Ouvrir GitKraken : Lancez l'application GitKraken sur votre ordinateur.
+1. **Ouvrir GitKraken**  
+   - Cliquez sur **“+”** ou allez dans **File > Init Repo**.
 
-    Nouvel espace de travail : Depuis la page d'accueil, cliquez sur l'icône ‘+’ ou sur File > Init Repo pour créer un nouveau dépôt.
+2. **Choisir l’emplacement**  
+   - Sélectionnez un emplacement pour le dépôt :  
+     - **Nouveau dossier** : créez un nouveau dossier.  
 
-    Choisir l’emplacement : Une fois l’option de création de dépôt sélectionnée, une fenêtre s'ouvre pour spécifier l’emplacement où le dépôt sera créé. Vous pouvez choisir un dossier local ou un emplacement             spécifique sur votre disque.
+3. **Nommer le dépôt**  
+   - Entrez un nom, par exemple : `ProjetTP_GitKraken`.
 
-    Nommer le dépôt : ProjetTP_GitKraken   Dans le champ dédié, entrez un nom pour le dépôt. Cela va créer un dossier avec ce nom, qui contiendra tous les fichiers Git associés.
+4. **Initialisez le fichier demandé**    
+   - **Ajouter un `README`** : pour décrire le projet.
+
+5. **Finaliser**  
+   - Cliquez sur **Init Repository** pour créer le dépôt.
+
+
 ## Question 3
 Les branches permettent de :
 
-    Travailler en parallèle : On peut développer une nouvelle fonctionnalité sans modifier la version principale du code.
-    Protéger le code principal : Les branches isolent le code en cours de modification ou de test pour éviter les erreurs dans la version stable.
-    Collaborer facilement : Plusieurs personnes peuvent travailler sur différentes fonctionnalités en même temps, sans se gêner.
+    Créer des branches dans un projet Git permet de travailler sur différentes tâches en parallèle sans affecter le code principal. Cela permet de protéger la branche     principale, généralement appelée `main` en évitant d’y introduire des erreurs.
 
-Créer une branche feature à partir de main avec GitKraken
+
+
+
+réer une branche feature à partir de main avec GitKraken
 
     Ouvrez GitKraken et assurez-vous d’être sur la branche main.
     Faire Clique droit sur create New Branch 
