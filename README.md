@@ -1,5 +1,7 @@
 # ProjetTP_GitKraken
 
+# Etape 1 : Découverte de l'interface de GitKraken
+
 ## Question 1
 ### Décrivez l’interface de GitKraken et indiquez le rôle de chaque section principale :
 
@@ -53,6 +55,7 @@ Barre inférieure :
 5. **Finaliser**  
    - Cliquez sur **Init Repository** pour créer le dépôt.
 
+# Etape 2 : Travail sur les branches et les commits
 
 ## Question 3
 ### Les branches permettent de :
@@ -78,6 +81,8 @@ Comment faire ?
 Cliquez sur le bouton Push en haut de la fenêtre.
 GitKraken vous demandera si vous souhaitez pousser la branche feature vers le dépôt distant. Confirmez en cliquant sur Push.
 
+
+# Etape 3 : Gestion de merge et résolution de conflits
 
 ## Question 6
 ### Qu’est-ce qu’un conflit Git, et quand survient-il ?
@@ -106,41 +111,39 @@ Cela se produit généralement dans les situations suivantes :
 4. Commit et Push :  Entrez un message de commit, puis cliquez sur Commit Changes. Enfin, poussez les modifications vers le dépôt distant en cliquant sur Push.
 
 
-## Question 8 :
-### Que signifie le terme “commit de merge” ?
+## Question 8 : Que signifie le terme “commit de merge” ?
 Le terme "commit de merge" désigne un commit créé automatiquement par Git lorsqu'on fusionne (ou "merge") deux branches. Ce commit marque le point où deux branches distinctes sont combinées en une seule.
 
 Lorsqu'un merge est effectué, Git prend les modifications de deux branches (par exemple, main et feature) et essaie de les intégrer dans une branche de destination (généralement main). Si tout se passe bien, Git crée un commit de merge qui contient les changements combinés des deux branches.
 
+# Étape 4 : Pull Request et collaboration
 
 ## Question 9 : À quoi sert une Pull Request dans le flux de travail Git ?
+Une Pull Request (PR) dans Git est utilisée pour proposer des modifications dans une branche, généralement une branche de fonctionnalité, afin de les intégrer dans la branche principale du projet. Elle permet aux membres de l’équipe de :
 
-Une Pull Request (PR) permet de proposer des modifications dans une branche pour qu’elles soient examinées avant d’être fusionnées dans une autre branche (souvent main). Elle est essentielle dans les projets collaboratifs, car :
+- vérifier le code (revue par d’autres développeurs).
+- discuter des changements avec des commentaires.
+- garantir que le code est testé et approuvé avant d’être fusionné.
 
-    Elle permet de vérifier le code (revue par d’autres développeurs).
-    Elle aide à discuter des changements avec des commentaires.
-    Elle garantit que le code est testé et approuvé avant d’être fusionné.
 
-Créer une PR dans GitKraken :
+## Question 10 :
+### 1. Merge direct
+- Le merge direct est une fusion de branches effectuée localement sans passer par un processus de révision formelle. Cela signifie que vous fusionnez directement les modifications d'une branche dans une autre
 
-    Naviguez dans l’onglet Pull Requests.
-    Sélectionnez la branche source (par ex., feature) et la branche cible (par ex., main).
-    Ajoutez un titre et une description pour expliquer vos modifications.
-    Validez en créant la PR.
+### 2. Pull Request
+- Une Pull Request est un processus formel de fusion de branches, souvent utilisé dans des plateformes comme GitHub, GitLab ou Bitbucket. Lorsqu'un développeur crée une PR, il soumet ses modifications à la branche cible. Avant d'être fusionnée, la PR permet à d'autres développeurs de revoir le code, de discuter des changements, de signaler des problèmes ou de suggérer des améliorations.
 
+### Pourquoi la PR est-elle plus souvent utilisée dans les projets collaboratifs ?
+- Révision de code
+- Discussion et collaboration
+- Tests
+- Historique clair
+
+# Étape 5 : Historique et tags 
 ## Question 11 : Comment l’interface de GitKraken aide à visualiser les branches et les commits ?
+- L'interface de GitKraken utilise un affichage graphique pour visualiser les branches et les commits, offrant ainsi une vue claire et intuitive du projet. Les branches sont représentées sous forme de lignes colorées, et chaque commit est affiché comme un point, avec des flèches indiquant les relations entre eux. Les fusions de branches sont facilement visibles, ce qui permet de suivre l'historique des modifications et des merges.
 
-GitKraken affiche les branches et les commits sous forme d’un graphique coloré, facile à comprendre :
-
-    Chaque branche est une ligne colorée, montrant où elle a divergé ou fusionné.
-    Les commits sont représentés par des points sur ces lignes, avec des informations comme le message ou l’auteur.
-    Les conflits, les merges, et les tags sont clairement visibles.
-
-Avantages :
-
-    On voit tout l’historique en un coup d’œil.
-    Les relations entre les branches et les commits sont faciles à comprendre.
-    Pas besoin de taper des commandes compliquées.
+- Cet affichage graphique présente plusieurs avantages : il facilite la compréhension des relations entre les branches, simplifie la gestion des conflits, permet une navigation rapide entre les commits
 
 ## Question 12 : À quoi servent les tags, et comment les crée-t-on dans GitKraken ?
 
