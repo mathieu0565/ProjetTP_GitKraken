@@ -68,13 +68,13 @@ Pour faire un commit avec GitKraken, ouvrez votre dépôt et modifiez vos fichie
 ## Question 5
 Pousser (ou push) une branche vers le dépôt distant est essentiel car cela permet de :
 
-    Il est important de pousser les branches vers le dépôt distant pour plusieurs raisons : cela permet de sauvegarder vos travaux sur un serveur externe, de partager vos modifications avec d’autres membres de l’équipe et de conserver une version à jour de votre travail accessible de partout. Cela assure également une meilleure gestion des versions et facilite les collaborations en équipe.
+Il est important de pousser les branches vers le dépôt distant pour plusieurs raisons : cela permet de sauvegarder vos travaux sur un serveur externe, de partager vos modifications avec d’autres membres de l’équipe et de conserver une version à jour de votre travail accessible de partout. Cela assure également une meilleure gestion des versions et facilite les collaborations en équipe.
 
 Comment faire ?
-Assurez-vous que feature est sélectionnée en haut de l’interface GitKraken :
-Pousser la branche :
-        Cliquez sur le bouton Push en haut de la fenêtre.
-        GitKraken vous demandera si vous souhaitez pousser la branche feature vers le dépôt distant. Confirmez en cliquant sur Push.
+1. Assurez-vous que feature est sélectionnée en haut de l’interface GitKraken.
+2. Pousser la branche :
+Cliquez sur le bouton Push en haut de la fenêtre.
+GitKraken vous demandera si vous souhaitez pousser la branche feature vers le dépôt distant. Confirmez en cliquant sur Push.
 
 
 ## Question 6
