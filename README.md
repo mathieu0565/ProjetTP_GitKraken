@@ -1,6 +1,8 @@
 # ProjetTP_GitKraken
 
 ## Question 1
+### Décrivez l’interface de GitKraken et indiquez le rôle de chaque section principale :
+
 Barre supérieure :
   -  Ouvrir un projet.
   - Créer un nouveau dépôt.
@@ -53,7 +55,7 @@ Barre inférieure :
 
 
 ## Question 3
-Les branches permettent de :
+### Les branches permettent de :
 
 Créer des branches dans un projet Git permet de travailler sur différentes tâches en parallèle sans affecter le code principal. Cela permet de protéger la branche     principale, généralement appelée `main` en évitant d’y introduire des erreurs.
 
@@ -78,35 +80,38 @@ GitKraken vous demandera si vous souhaitez pousser la branche feature vers le d�
 
 
 ## Question 6
-Qu’est-ce qu’un conflit Git, et quand survient-il ?
+### Qu’est-ce qu’un conflit Git, et quand survient-il ?
+Un conflit Git survient lorsque Git ne peut pas automatiquement fusionner deux branches, car les modifications apportées sur ces branches entrent en contradiction.
 
-    Un conflit Git survient lorsque deux branches modifient les mêmes lignes d’un fichier ou des fichiers incompatibles       entre elles, rendant impossible la fusion automatique des modifications. Par exemple, si deux personnes modifient         simultanément la même ligne dans un fichier README.md, Git ne sait pas quelle version choisir lors de la fusion. Cela     peut arriver pendant un merge ou un rebase, lorsque Git tente de combiner les branches.
+Cela se produit généralement dans les situations suivantes :
+- Modification du même fichier : Si deux personnes modifient la même ligne d'un fichier dans deux branches différentes, Git ne sait pas laquelle des modifications garder lors du merge.
+- Modification du même fichier dans des zones proches : Même si les lignes ne sont pas identiques, si elles sont dans la même section du fichier, Git peut avoir des difficultés à déterminer quelle version doit être conservée.
+- Suppression d'un fichier dans une branche et modification dans l'autre : Si un fichier est supprimé dans une branche et modifié dans une autre, Git rencontre un conflit lors de la fusion.
+
 ## Question 7 : Résolution de conflits dans GitKraken
+1. Identifier le conflit : Lorsqu’un conflit survient, GitKraken affiche une notification et marque les fichiers conflictuels en rouge.
+2. Accéder aux fichiers en conflit : Cliquez sur le fichier en rouge pour ouvrir l’outil de gestion des conflits de GitKraken.
+   
+### GitKraken affiche trois sections :
+- Ours : les changements de la branche principale (main).
+- Theirs : les changements de la branche fusionnée (feature).
+- Base : la version initiale avant les modifications.
 
-    Identifier le conflit : Lorsqu’un conflit survient, GitKraken affiche une notification et marque les fichiers conflictuels en rouge.
+### Résoudre le conflit : Vous avez trois options :
+- Accepter "Ours" : garder les modifications de la branche principale.
+- Accepter "Theirs" : garder les modifications de la branche fusionnée.
+- Fusionner manuellement : éditer le fichier pour choisir vous-même les modifications à garder.
 
-    Accéder aux fichiers en conflit : Cliquez sur le fichier en rouge pour ouvrir l’outil de gestion des conflits de GitKraken.
+3. Valider la résolution :  Une fois le conflit résolu, cliquez sur Stage pour préparer le fichier à être commité.
+4. Commit et Push :  Entrez un message de commit, puis cliquez sur Commit Changes. Enfin, poussez les modifications vers le dépôt distant en cliquant sur Push.
 
-    Analyser les différences : GitKraken affiche trois sections dans l’éditeur :
-        Incoming (entrante) : Les changements venant de l’autre branche.
-        Resolved (résolu) : La zone où vous choisissez les lignes finales.
-
-    Choisir les changements : Pour chaque section en conflit, vous pouvez :
-        Sélectionner la version HEAD,
-        Sélectionner la version entrante,
-        Combiner manuellement les deux en éditant la zone Résolu.
-
-    Marquer comme résolu : Une fois tous les conflits réglés, cliquez sur Mark as resolved.
-
-    Commit de résolution de conflit : GitKraken vous demandera de faire un commit de merge pour enregistrer la résolution des conflits (voir Question 8 pour plus de détails sur le commit de merge).
-
-    Push vers le dépôt distant : Après avoir fait le commit de résolution de conflit, poussez les changements vers le dépôt distant pour synchroniser la branche.
 
 ## Question 8 :
+### Que signifie le terme “commit de merge” ?
+Le terme "commit de merge" désigne un commit créé automatiquement par Git lorsqu'on fusionne (ou "merge") deux branches. Ce commit marque le point où deux branches distinctes sont combinées en une seule.
 
-Que signifie le terme “commit de merge” ?
+Lorsqu'un merge est effectué, Git prend les modifications de deux branches (par exemple, main et feature) et essaie de les intégrer dans une branche de destination (généralement main). Si tout se passe bien, Git crée un commit de merge qui contient les changements combinés des deux branches.
 
-    Un commit de merge est un commit spécial créé lors de la fusion de deux branches. Il capture l’état des deux branches au moment de la fusion, incluant les changements des deux côtés, et indique que ces modifications ont été combinées dans une version finale.
 
 ## Question 9 : À quoi sert une Pull Request dans le flux de travail Git ?
 
