@@ -1,9 +1,38 @@
 # ProjetTP_GitKraken
 
 ## Question 1
-Barre supérieure
-    Permet d’accéder aux actions principales comme ouvrir un projet, créer un nouveau dépôt, ou gérer les paramètre
+Barre supérieure :
+  - Ouvrir un projet.
+  - Créer un nouveau dépôt.
+  - Accéder aux paramètres et configurations globales.
 
+Panneau de gauche :
+- Affiche :
+  - Les branches locales et distantes.
+  - Les remotes (dépôts distants).
+- Actions possibles :
+  - Créer ou supprimer une branche.
+  - Basculer entre différentes branches.
+
+Panneau central :
+  - L’historique des modifications.
+  - Les relations entre les branches et les commits.
+
+Panneau de droite :
+- Liste les fichiers modifiés :
+  - **Unstaged Files** : fichiers non ajoutés.
+  - **Staged Files** : fichiers prêts à être validés.
+- Sert à :
+  - Ajouter un message de commit.
+  - Valider les changements avec **Commit Changes**.
+
+Barre inférieure :
+- Affiche :
+  - La branche active.
+  - L’état du dépôt (synchronisé ou non).
+- Options disponibles :
+  - **Pull** pour récupérer les mises à jour distantes.
+  - **Push** pour envoyer vos modifications au dépôt distant.
 
 ## Question 2
 Ouvrir GitKraken : Lancez l'application GitKraken sur votre ordinateur.
